@@ -1,0 +1,76 @@
+/*
+.col-xs-12 {
+    background: url('../images/positano.jpg');
+    background-color: black;
+}
+*/
+
+p {
+    color: black;
+    text-align: left;
+}
+
+button {
+    border: 70px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+a {
+    margin: 50px;
+    padding: 10px;
+    border: 50px;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    color: blue;
+}
+
+img {
+    border-radius: 50%;
+    height: 300px;
+    width: 200px;
+}
+
+
+#navbar {
+    background-color: pink;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+#footer {
+    height: 40px;
+    background-color: yellow;
+}
+
+#main {
+    background-color: #D3D3D3;
+    height: 500px;     
+}
+#main img {
+    margin: auto;
+}
+
+#header{
+    background-color: purple;
+}
+
+#experience {
+    border: 1px solid red;
+}
+
+.pro {
+    color: green;
+    margin: 2px;
+}
+.circle {
+      border-radius: 50%;
+      margin: auto;
+      border: 2px;
+      padding: 2px;
+}

@@ -4,6 +4,9 @@
     background-color: black;
 }
 */
+body {
+    background: url('../images/positano.jpg');
+}
 
 p {
     color: black;
@@ -50,7 +53,7 @@ img {
 
 #main {
     background-color: #D3D3D3;
-    height: 500px;     
+    height: 600px;     
 }
 #main img {
     margin: auto;
@@ -58,10 +61,6 @@ img {
 
 #header{
     background-color: purple;
-}
-
-#experience {
-    border: 1px solid red;
 }
 
 .pro {
@@ -73,4 +72,11 @@ img {
       margin: auto;
       border: 2px;
       padding: 2px;
+}
+
+
+
+
+/* #experience {
+    border: 1px solid red;
 }

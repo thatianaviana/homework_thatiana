@@ -1,0 +1,46 @@
+body {
+	background: black;
+}
+img {
+	border-radius: 70%;
+}
+a .nav-bar {
+	color: yellow;
+}
+section {
+	background-color: black;
+}
+nav {
+	background-color: black;
+}
+
+hr.star-dark:after {
+  color: black;
+  background-color: none; }
+
+header {
+	background-color: black;
+}
+
+ header.masthead {
+  padding-top: 200px;
+  padding-bottom: 6rem; }
+  header.masthead h1 {
+    font-size: 50px;
+    line-height: 3rem; }
+  header.masthead h2 {
+    font-size: 50px;
+    font-family: 'Lato'; 
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+      transition: all ease 0.5s;
+      opacity: 0;
+      background-color: rgba(24, 188, 156, 0.9); }
+
+.bg-primary {
+  background-color: yellow !important; }
+
+  a {
+  color: #006ca9; }
+  a:focus, a:hover, a:active {
+    color: #128f76; }

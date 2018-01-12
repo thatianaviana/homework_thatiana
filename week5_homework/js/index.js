@@ -2,18 +2,16 @@
 var likePet = true;
 var pet = "bo";
 
-$('#pets').on('click', yesForBo);
+$('#pets').on('click', yesForPets);
 $('#noPets').on('click', nayForPets);
 
-function yesForBo() {
+function yesForPets() {
     likePet = true;
-    pet = "bo";
-    showImage();
-}
-
-function yesForJo() {
-    likePet = true;
-    pet = "jo";
+    if(pet == "bo") {
+        pet = "cat";
+    } else {
+        pet = "bo";
+    }
     showImage();
 }
 

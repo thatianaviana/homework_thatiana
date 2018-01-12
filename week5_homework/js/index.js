@@ -1,13 +1,21 @@
 //Declare a variable and assign a value
 var likePet = true;
+var pet = "bo";
 
-$('#pets').on('click', yesForPets);
+$('#pets').on('click', yesForBo);
 $('#noPets').on('click', nayForPets);
 
-function yesForPets() {
+function yesForBo() {
     likePet = true;
+    pet = "bo";
     showImage();
-}   
+}
+
+function yesForJo() {
+    likePet = true;
+    pet = "jo";
+    showImage();
+}
 
 function nayForPets(){
     likePet = false;
@@ -18,7 +26,7 @@ function showImage()
 {
     if (likePet) {
         $('#result').html('PETS ARE THE BEST!!!');
-        $('body').html('<img src="images/bo.jpg" />');
+        $('body').html('<img src="images/' + pet + '.jpg" />');
     } else {
         $('#conclusion').html("I PREFER MY FREEDOM");
         $('body').html('<img src="images/debbie.gif" />');    

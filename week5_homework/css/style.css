@@ -2,6 +2,9 @@ body {
     text-align: center;
     color: black;
     background-color: #c2f9ea;
+    background-image: url("http://www.publicdomainpictures.net/pictures/40000/nahled/blue-wood-texture-background-1366921744cfh.jpg");
+    background-size: 400px auto;
+ 
 }
 header {
 	padding: 30px;
@@ -9,8 +12,24 @@ header {
 
 }
 
-h1 {
+footer {
+    background-color: black;
+    height: 60px;
+    color: white;
+    height: 50px;
+    text-align: center;
+ }
+
+
+ h1 {
 	font-family: comic sans ms;
+}
+
+#content {
+	min-height: 450px;
+}
+.masthead {
+	background-color: pink;
 }
 
 #result {
@@ -29,4 +48,11 @@ h1 {
 .row {
 	padding: 100px;
 
+}
+
+#confused {
+	font-family: comic sans ms;
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
 }

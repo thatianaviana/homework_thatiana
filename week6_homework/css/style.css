@@ -1,0 +1,55 @@
+
+body {
+	background-color: #808A87;
+}
+
+img {
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 50%;
+}
+
+footer {
+	background-color: black;
+    height: 100px;
+    color: white;
+    height: 50px;
+    text-align: center;
+    text-decoration: bold;
+}
+
+h3, h5 {
+	text-align: center;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto Mono';
+	font-size: 30px;
+	color: #457c90;
+
+}
+button {
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+
+}
+.masthead {
+	padding: 20px;
+	margin: 10px;
+	border: 5px solid black;
+	min-height: 50px;
+
+
+}
+
+#content {
+	min-height: 350px;
+}
+
+
+
+/*background: url('../images/positano.jpg');
+/*background-image: url('../images/background2.png');	

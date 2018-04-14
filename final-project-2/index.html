@@ -6,34 +6,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="favicon.ico">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
+<body>    
 
-<nav class="navbar navbar-inverse"><a class="navbar-brand" href="#"><img src="./img/logo.jpg"/></a>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <!-- adding the navbar-fixed-top will keep the navbar a the top, but it messes the size of the carousel...-->
+
+  <a class="navbar-brand" href="#"><img src="./img/white01.png"/></a>
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-    </div>
+    <div class="navbar-header"></div>
     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+
+      
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!--SEARCH BAR more codes
+        <li><div class="search-container">
+            <form action="/action_page.php">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form></div> -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -43,66 +51,75 @@
       <li data-target="#myCarousel" data-slide-to="4"></li>
       <li data-target="#myCarousel" data-slide-to="5"></li>
       <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img/img1.jpg" alt="Image">
+        <img src="img/startrek2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Star Trek Behind The Scenes</h3>
-          <p>Meet the Actors</p>
+          <h3></h3>
+          <p></p>
         </div>      
       </div>
 
       <div class="item">
-        <img src="img/img2.jpg" alt="Image">
+        <img src="img/swat2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Trailer for No Activity</h3>
-          <p>Lorem ipsum...</p>
+          <h3></h3>
+          <p></p>
         </div>      
       </div>
     
 
       <div class="item">
-        <img src="img/bg.jpg" alt="Image">
+        <img src="img/bull2.jpg" alt="Image">
         <div class="carousel-caption">
-         <h3>Q&A With Young Sheldon Cast</h3>
-         <p>Lorem ipsum...</p>
+         <h3></h3>
+         <p></p>
         </div>      
       </div>
 
        <div class="item">
-        <img src="img/ys1.jpg" alt="Image">
+        <img src="img/goodfight2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Behind The Scenes with Michael Weatherly</h3>
-          <p>Lorem ipsum...</p>
+          <h3></h3>
+          <p></p>
         </div>      
       </div>
 
        <div class="item">
-        <img src="img/bull1.jpg" alt="Image">
+        <img src="img/ys2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Star Trek Scoring</h3>
-          <p>Lorem ipsum...</p>
+          <h3></h3>
+          <p></p>
         </div>      
       </div>
 
        <div class="item">
-        <img src="img/swat1.jpg" alt="Image">
+        <img src="img/seal.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Good Fight Season 2 Trailer</h3>
-          <p>Lorem ipsum...</p>
+          <h3></h3>
+          <p></p>
         </div>      
       </div>
 
        <div class="item">
-        <img src="img/colbert1.jpg" alt="Image">
+        <img src="img/mac2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>LOL with CBS Comedies</h3>
-          <p>Lorem ipsum...</p>
+          <h3></h3>
+          <p></p>
         </div>      
       </div>
+       <div class="item">
+        <img src="img/activity.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+
     </div>
 
 
@@ -115,75 +132,218 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
+  </div>
 
-  <section class="py-5" id="about">
-    <div class="container text-center">
-      <h1>ABOUT US</h1>
-      <p class="lead">Digital Arm of CBS On-Air Promotion</p>
-      <p>We are a digital factory producing behind the scenes, exclusive interviews, and more that highlight CBS content.   
-         Innovative, complementary, and original pieces specifically created for your online viewing pleasure.</p>
-      <p>Hosted on CBS.com and CBS All Access, as well as distributed to the CBS Audience Network, which includes an ever expanding list of platforms such as YouTube, Facebook, and Twitter.</p>
-      <p>Lean back, press play, and feel free to take your hand off the mouse.  You will not want to click away.</p>
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <h2>ABOUT US</h2>
+        <h4>Digital Arm of CBS On-Air Promotion</h4>
+      
+        <p>We are a digital factory producing behind the scenes, exclusive interviews, and more that highlight CBS content.   
+           Innovative, complementary, and original pieces specifically created for your online viewing pleasure.</p>
+        <p>Hosted on CBS.com and CBS All Access, as well as distributed to the CBS Audience Network, which includes an ever expanding list of platforms such as YouTube, Facebook, and Twitter.</p>
+        <p>Lean back, press play, and feel free to take your hand off the mouse.  You will not want to click away.</p>
+        <br>
+        <h4> For Questions or Comments please email: help@cbseyelab.com</h4>
+        <br>
+        <h4>Connect with us:</h4>
+            <!--Social Media Icons -->
+        <div class="row" id="icons">
+          <div class="col-sm-12 social">
+            <a href="#"><i class="fa fa-facebook"></i></a>  <span class="divider-2"></span> 
+            <a href="https://twitter.com/cbseyelab"><i class="fa fa-twitter"></i></a> 
+            <span class="divider-2"></span> 
+            <a href="https://www.youtube.com/user/cbseyelab"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>  
+</section>
+
+
+<!--PROJECTS-->
+<section id="profiles" class="page">
   
-<div class="container text-center">    
-  <h1>PROJECTS</h1><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="img/pic9.png" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
-    </div>
-
-    <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
+  <div class="container" id="projects">    
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>PROJECTS</h2>
+      </div>
     </div>
   </div>
-</div><br>
+        
+  <div class="container">
+    <div class="row" id="profile-grid">
+    
+      <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 1" class="thumb" data-index=0>
+                  <img src="img/noactivity350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">No Activity</p>
+              </div>
+            </div>
+        </div>
+              
+      <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 2" class="thumb"  data-index=1>
+                  <img src="img/startrek350.jpg"  class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">Star Trek</p>
+              </div>
+            </div>
+        </div>
+      <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 3" class="thumb" data-index=2>
+                <img src="img/ys350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">Young Sheldon</p>
+              </div>
+            </div>
+        </div> 
+              
+      <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 4" class="thumb" data-index=3>
+                  <img src="img/swat350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">S.W.A.T</p>
+              </div>
+            </div>
+      </div>                  
+              
+        <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 5" class="thumb" data-index=4>
+                  <img src="img/seal350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">Seal Team</p>
+              </div>
+            </div>
+        </div>
+              
+        <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 6" class="thumb" data-index=5>
+                  <img src="img/lb350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">Living Biblically</p>
+              </div>
+            </div>
+        </div>
 
-  <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-white">Copyright &copy; CBS Eyelab 2018. All Rights Reserved</p>
+        <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 7" class="thumb" data-index=6>
+                  <img src="img/9jkl350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">9JKL</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 8" class="thumb" data-index=7>
+                  <img src="img/startrek350.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">Star Trek</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 profile">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 9" class="thumb" data-index=8>
+                  <img src="img/superior.jpg" class="img-responsive img-rounded" data-toggle="modal" data-target="#video">
+                </a>
+              </div>
+              <div class="panel-body">
+                <p class="profile-name">Superior Donuts</p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <!-- Need to learn how to make load more!!!!
+       <div class="col-sm-12">
+        <button type="button" class="btn btn-md btn-primary" class="button">Load More</button>
+      </div> -->
+
+  </section>
+
+    <!-- .modal-profile -->
+  <div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Modal title</h5><img src="img/cbsLogoW.png" class="pull-right" class="inline" width="20" id="logo" height="20">
+        </div>
+        <div class="modal-body">
+          <iframe id="modal-video" width="569" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p id="modal-description"></p>
+            <div class="row">
+             <div id="intro">
+                <p></p>
+              </div>
+            </div> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary my-2 my-sm-0" class="button" data-dismiss="modal">Close</button>
+        </div>
       </div>
-  </footer> 
+    </div>
+  </div>
 
-</body>
+  <!--Footer -->
+
+      <footer class="py-5 bg-dark">
+        <div class="container">
+         <p class="m-0 text-white">Copyright &copy; CBS Eyelab 2018. All Rights Reserved</p>
+       </div>
+      </footer> 
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
+
+
 
